@@ -461,8 +461,10 @@ flutter run
 
 > ✅ **Checkpoint 0.1** ถ่ายภาพหน้าจอ 2 ภาพ คือ (ก) หน้า Home ที่แสดงรายการสินค้าจริงจาก API และ (ข) หน้า Checkout ที่มีสินค้าที่เพิ่มไว้ เป็นหลักฐานว่าโปรเจกต์ตั้งต้นถูกต้องสมบูรณ์ก่อนเริ่มทำเนื้อหา Gemini API ต่อ
 
-```text
-บันทึกรูปผลลัพธ์ที่นี่
+<img width="1917" height="1015" alt="image" src="https://github.com/user-attachments/assets/105f4b64-6827-4517-902f-4bb688bd8bfa" />
+<img width="1917" height="1010" alt="image" src="https://github.com/user-attachments/assets/c885e830-f375-442b-98d4-bf850cea48b9" />
+
+
 ```
 
 > ⚠️ ถ้าหน้าจอ Home แสดง Error เช่น "ไม่สามารถโหลดรายการสินค้าได้ (สถานะ 523)" ไม่ใช่ปัญหาจากไฟล์ที่คัดลอกมา แต่เป็น Fake Store API (fakestoreapi.com) ล่มชั่วคราว (Error ของ Cloudflare ที่แปลว่าเซิร์ฟเวอร์ต้นทางเข้าไม่ถึง) ให้รอแล้วลองใหม่ หรือแจ้งอาจารย์/TA เพื่อขอไฟล์ `ItemRepositoryMock` สำรองไว้ทดสอบโดยไม่ง้อเครือข่าย
@@ -494,9 +496,14 @@ flutter run
 
 > ✅ **Checkpoint 1.1** ถ่ายภาพหน้าจอ Google AI Studio ที่แสดงรูปภาพที่แนบ Prompt ที่ใช้ และผลลัพธ์ JSON ที่ได้ จากนั้นทดลองรันซ้ำอีก 2 ครั้งด้วยภาพและ Prompt เดิม
 
-```text
-บันทึกรูปผลลัพธ์ที่นี่
+
+
+
+
 ```
+<img width="1917" height="1015" alt="image" src="https://github.com/user-attachments/assets/07c2a1d0-036a-4c2e-b64c-fd218c95f0ee" />
+<img width="1917" height="1015" alt="image" src="https://github.com/user-attachments/assets/764ed54f-2fee-438d-8058-a2907b440ff3" />
+<img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/f94b228f-8416-4d49-9185-6f0f28414bf6" />
 
 ### ขั้นตอนที่ 1.2: ทดลองเปิดใช้ Structured Output ใน AI Studio
 
@@ -504,8 +511,10 @@ flutter run
 
 > ✅ **Checkpoint 1.2** ถ่ายภาพหน้าจอที่แสดงการตั้งค่า Structured Output และผลลัพธ์ที่ได้ อธิบายว่าผลลัพธ์ที่ได้ต่างจากตอนไม่เปิด Structured Output ในขั้นตอน 1.1 อย่างไร (อ้างอิงบทหนังสือเรียนหัวข้อ 7.4)
 
-```text
-บันทึกผลลัพธ์ที่นี่
+<img width="1917" height="1018" alt="image" src="https://github.com/user-attachments/assets/b71f1e0f-7105-4e98-a52a-0f7ab6f61fb0" />
+
+<img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/9304c80e-e934-460a-b89e-abeecb6814fe" />
+ก่อนเปิดเราขอร้องให้โมเดลตอบเป็น JSON ผ่าน Prompt ซึ่งไม่รับประกันผลหลังเปิด Structured Output เราบังคับรูปแบบผ่าน Schema ทำให้ผลลัพธ์คาดเดาได้และเหมาะกับการเขียนโค้ดแอป
 ```
 
 ---
@@ -534,9 +543,10 @@ flutter run
 ```text
 บันทึกผลลัพธ์ที่นี่
 ```
+<img width="1917" height="1011" alt="image" src="https://github.com/user-attachments/assets/e7fc178e-5605-4468-b44d-f3745c02b3fd" />
 
 ---
-
+OpenWeather เป็น REST API ทั่วไปที่ดึงข้อมูลสำเร็จรูป จึงตอบเร็ว 10 วินาทีก็เพียงพอ ส่วน Gemini เป็นโมเดล AI ที่ต้องสร้างข้อความทีละ token เวลาตอบจึงขึ้นกับความยาวของคำตอบและภาระของเซิร์ฟเวอร์ ถ้าตั้งแค่ 10 วินาที จะเกิด timeout ทั้งที่ระบบยังทำงานปกติ ทำให้ผู้ใช้เห็น error โดยไม่จำเป็น
 ## ส่วนที่ 3: สร้างหน้าจอ "ลงประกาศขายสินค้า" และเชื่อมเข้ากับ Navigation
 
 ### ขั้นตอนที่ 3.1: ติดตั้ง image_picker และตั้งค่า Permission
@@ -900,6 +910,9 @@ class MyApp extends StatelessWidget {
 ```text
 บันทึกผลลัพธ์ที่นี่
 ```
+<img width="1917" height="1013" alt="image" src="https://github.com/user-attachments/assets/d6474d2d-b347-4fe1-9d89-a56aedae0250" />
+<img width="1095" height="602" alt="image" src="https://github.com/user-attachments/assets/5bd8f830-1e86-45d8-a992-3fe941460dbf" />
+<img width="1095" height="597" alt="image" src="https://github.com/user-attachments/assets/b11356b7-c2a0-4e48-9f0b-f24f91bbd645" />
 
 ---
 
