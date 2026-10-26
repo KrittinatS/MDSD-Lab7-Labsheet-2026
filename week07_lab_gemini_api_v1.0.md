@@ -958,8 +958,10 @@ class ListingDraft {
 
 > ✅ **Checkpoint 4.1** รันแอปแล้วทดสอบเลือกภาพสินค้าจริง กดปุ่ม "ให้ AI ช่วยแนะนำ" ถ่ายภาพหน้าจอผลลัพธ์ที่ AI วิเคราะห์ได้ (title/category/description) ทดสอบซ้ำกับภาพสินค้าอย่างน้อย 3 ภาพที่ต่างกัน แนบภาพหน้าจอทั้ง 3 กรณี 
 
-```text
-บันทึกผลลัพธ์ที่นี่
+<img width="1917" height="1017" alt="image" src="https://github.com/user-attachments/assets/d99e0234-0f2f-4ee4-a76a-d9afc9e60a9e" />
+<img width="1917" height="1016" alt="image" src="https://github.com/user-attachments/assets/3417b100-bdd0-4355-bd18-66775dd4fa58" />
+<img width="1917" height="1018" alt="image" src="https://github.com/user-attachments/assets/1f79833a-c341-42f7-95b5-bb79eae90ef4" />
+
 ```
 ---
 
@@ -981,6 +983,7 @@ class ListingDraft {
 ```text
 บันทึกผลลัพธ์ที่นี่
 ```
+<img width="1917" height="1021" alt="image" src="https://github.com/user-attachments/assets/1ba68297-1899-44ee-b5e2-a8e32d19a46e" />
 
 ---
 
@@ -1011,6 +1014,7 @@ class ListingDraft {
 บันทึกผลลัพธ์ที่นี่
 ```
 ---
+<img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/6b4c4fbb-c900-42f5-92db-b7db9db2aae2" />
 
 
 ## ปัญหาที่พบบ่อยและวิธีแก้ไข (Troubleshooting)
